@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title><%= @title %></title>
+        <style type="text/css">
+         <!--
+         body { margin:0;padding:0; }
+         h1 { margin:0;padding:0;background-color:#800b23;color:white;padding:2rem; }
+         .code { background-color:#ffe6e6;padding:1rem; }
+         -->
+        </style>
+    </head>
+    <body>
+        <h1><%= @title %> - HTTP Request</h1>
+        <div class="code">
+            <%= yield %>
+        </div>
+    </body>
+</html>
