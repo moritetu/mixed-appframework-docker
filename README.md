@@ -16,4 +16,9 @@ $ docker-compose build
 $ docker-compose up
 ```
 
-Access to `http://localhost:5000/`
+* Access to web
+    * `http://localhost:5000/`
+* Web UI
+    * `http://localhost:8080`
+
+Web UI is powered by https://github.com/jpillora/webproc
